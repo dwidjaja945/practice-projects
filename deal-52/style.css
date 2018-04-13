@@ -19,20 +19,24 @@
     font-size: 3em;
 }
 
-.player1, player3 {
-    width: 100%;
+.player1,
+.player2,
+.player3,
+.player4 {
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 0.5em;
+    font-size: 1em;
 }
 
-.player2, player4 {
+.player1, .player3 {
+    width: 100%;
+    justify-content: center;
+
+}
+
+.player2, .player4 {
     width: 10%;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size:0.5em;
 }
 
 
