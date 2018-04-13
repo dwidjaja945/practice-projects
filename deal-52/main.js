@@ -16,6 +16,7 @@ class Card = {
 function initializeApp() {
     createCards(xxx, xxx, xxx);
 }
+
 function createCards(suit, value, id) {
     for(var i = 0; i < 52; i ++) {
         var card = new Card(suit, value, i);
