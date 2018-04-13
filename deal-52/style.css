@@ -8,12 +8,20 @@
     opacity: 0.8;
     width: 100%;
     height: 10vh;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #gameName {
-
     display: flex;
     border: 1px solid blue;
+    font-size: 40px;
 }
+
+
+
+
+
+
 
